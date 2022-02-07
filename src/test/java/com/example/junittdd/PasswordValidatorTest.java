@@ -33,7 +33,7 @@ class PasswordValidatorTest {
 
         Assertions.assertThat(result).isFalse();
     }
-    /*@Test
+    @Test
     void shouldNotAcceptPasswordLongerThan20Characters() {
         String passwordToTest = "PasswordThatIsLongerThan20Characters";
 
@@ -48,5 +48,5 @@ class PasswordValidatorTest {
         boolean result = passwordValidator.validate(passwordToTest);
 
         Assertions.assertThat(result).isTrue();
-    }*/
+    }
 }
