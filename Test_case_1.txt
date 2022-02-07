@@ -1,10 +1,10 @@
-test case for finding the cheapest bicycle on allegro.
-1. Open a new tab
-2. Agree with cookies
+test case for finding the cheapest bicycle on amazon
+1. Open a new browser in incognito mode
 3. Open amazon.com
 4. Find searching bar
 5. Click it, so you can type in
 6. Type "bicycle"
 7. Find "Sort by" button
 8. Click it
-9. From menu choose "Price: Low to High"
+9. From shown menu choose "Price: Low to High"
+10. Expect list of bicycles sorted ascending by price.
